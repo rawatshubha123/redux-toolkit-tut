@@ -1,4 +1,12 @@
-function App() {
-  return <h2>Redux Toolkit</h2>;
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+      <h1>Shubham Rawat</h1>
+    </div>
+  )
 }
-export default App;
+
+export default App
+
