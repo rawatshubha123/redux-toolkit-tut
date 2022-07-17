@@ -5,7 +5,7 @@ Variables
 */
 
 :root {
-  --clr-primary: #645cff;
+  --clr-primary: #e96125;
   --clr-primary-dark: #282566;
   --clr-primary-light: #a29dff;
   --clr-grey-1: #102a42;
@@ -19,7 +19,6 @@ Variables
   --radius: 0.25rem;
   --large-screen-width: 1170px;
   --small-screen-width: 90vw;
-  --fixed-width: 50rem;
 }
 * {
   margin: 0;
@@ -123,12 +122,9 @@ nav {
   padding: 1.25rem 2rem;
 }
 .nav-center {
-  max-width: var(--fixed-width);
+  max-width: 100rem;
   width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 nav h3 {
   margin-bottom: 0;
@@ -136,7 +132,9 @@ nav h3 {
   color: var(--clr-white);
 }
 .nav-container {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
 }
 nav svg {
@@ -150,7 +148,7 @@ nav svg {
   width: 1.75rem;
   height: 1.75rem;
   border-radius: 50%;
-  background: var(--clr-primary-light);
+  background: black;
   display: flex;
   align-items: center;
   justify-content: center;

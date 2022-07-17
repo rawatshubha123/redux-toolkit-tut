@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import CartContainer from './Components/CartContainer'
 
 const App = () => {
   return (
     <div>
-      <h1>Shubham Rawat</h1>
+      <Navbar />   
+      <CartContainer />
     </div>
   )
 }
